@@ -1,0 +1,25 @@
+import matplotlib.pyplot as plt
+apple = (126.66, 120.99, 116.36, 123, 122.77, 123.54, 137.27, 145.52, 141.5, 139.14, 147.87, 161.84)
+microsoft = (212.25, 228.99, 226.73, 242.35, 239, 245.71, 271.6, 284.82, 281.92, 283.11, 329.37, 319.91)
+google = (1722.880, 1893.070, 2007.500, 2129.780, 2200.250, 2347.580, 2448.890, 2697.090, 2673.520, 2673.190, 2837.950, 2821.030)
+#apple
+plt.grid()
+plt.title('Apple Inc.')
+plt.xticks(range(12))
+plt.plot(range(12), apple, c = 'g')
+plt.fill_between(range(12), apple)
+plt.show()
+#microsoft
+plt.grid()
+plt.title('Microsoft Corporation')
+plt.xticks(range(12))
+plt.plot(range(12), microsoft, c = 'g')
+plt.fill_between(range(12), microsoft)
+plt.show()
+#apple
+plt.grid()
+plt.title('Google')
+plt.xticks(range(12))
+plt.plot(range(12), google, c = 'g')
+plt.fill_between(range(12), google)
+plt.show()
